@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiba Mais - AgroForte</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .pagina{
+            padding: 60px 10%;
+            background: #f5f5f5;
+        }
+
+        .pagina h1{
+            color: #1b5e20;
+            margin-bottom: 20px;
+            font-size: 42px;
+            text-align: center;
+        }
+
+        .pagina h2{
+            margin-top: 40px;
+            color: #2e7d32;
+        }
+
+        .pagina p{
+            margin-top: 15px;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        .banner{
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-top: 30px;
+        }
+
+        .voltar{
+            display: inline-block;
+            margin-top: 40px;
+            background: #1b5e20;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .voltar:hover{
+            background: #2e7d32;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>🌱 AgroForte</h1>
+            <p>Futuro Sustentável</p>
+        </div>
+    </header>
+
+    <section class="pagina">
+
+        <h1>O Futuro Sustentável no Agronegócio</h1>
+
+        <img
+            class="banner"
+            src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1600&auto=format&fit=crop"
+            alt="Campo sustentável"
+        >
+
+        <p>
+            O agronegócio sustentável representa uma nova forma de produzir alimentos,
+            fibras e energia respeitando os recursos naturais e garantindo qualidade de vida
+            para as futuras gerações.
+        </p>
+
+        <p>
+            Nos últimos anos, a preocupação com o meio ambiente aumentou em todo o mundo.
+            Com isso, produtores rurais passaram a buscar soluções que conciliam produtividade,
+            preservação ambiental e desenvolvimento econômico.
+        </p>
+
+        <h2>🌿 Sustentabilidade no Campo</h2>
+
+        <p>
+            A sustentabilidade no campo envolve práticas agrícolas responsáveis,
+            como rotação de culturas, preservação das nascentes, reflorestamento,
+            recuperação do solo e uso consciente da água.
+        </p>
+
+        <p>
+            Essas ações ajudam a diminuir impactos ambientais e aumentam a eficiência
+            da produção agrícola.
+        </p>
+
+        <h2>🚜 Tecnologia e Inovação</h2>
+
+        <p>
+            A tecnologia desempenha papel fundamental no agro moderno.
+            Máquinas inteligentes, drones, sensores e agricultura de precisão
+            permitem monitorar lavouras em tempo real.
+        </p>
+
+        <p>
+            Isso reduz desperdícios, melhora a produtividade e evita o uso excessivo
+            de defensivos agrícolas.
+        </p>
+
+        <h2>💧 Preservação dos Recursos Naturais</h2>
+
+        <p>
+            A água é um dos recursos mais importantes para a agricultura.
+            Técnicas de irrigação inteligente ajudam a economizar milhares
+            de litros diariamente.
+        </p>
+
+        <p>
+            Além disso, o uso de energia renovável, como solar e biomassa,
+            contribui para reduzir a emissão de gases poluentes.
+        </p>
+
+        <h2>🌎 Importância para o Futuro</h2>
+
+        <p>
+            O equilíbrio entre produção e meio ambiente é essencial para garantir
+            segurança alimentar e qualidade de vida para a população mundial.
+        </p>
+
+        <p>
+            O AgroForte acredita que produzir com responsabilidade é o caminho
+            para um futuro mais verde, produtivo e sustentável.
+        </p>
+
+        <h2>📊 Indicadores do Agronegócio Sustentável</h2>
+
+<p>
+    Os gráficos abaixo mostram a comparação entre práticas sustentáveis
+    e impactos negativos causados ao meio ambiente.
+</p>
+
+<div class="graficos-grid">
+
+    <div class="grafico-card">
+        <h3>🌱 Indicadores Positivos</h3>
+
+        <canvas id="graficoAgro"></canvas>
+    </div>
+
+    <div class="grafico-card">
+        <h3>⚠ Impactos Ambientais</h3>
+
+        <canvas id="graficoImpactos"></canvas>
+    </div>
+
+</div>
+
+        <a href="index.html" class="voltar">
+            ← Voltar para a Página Inicial
+        </a>
+
+    </section>
+         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+         <script src="grafico.js"></script>
+
+</body>
+</html>
